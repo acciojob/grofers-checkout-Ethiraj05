@@ -8,7 +8,7 @@ const getSum = () => {
 
 let total = 0;
 
-prices.forEach(function(price) {
+prices.forEach(function(prices) {
     total += Number(price.innerText);
 });
 
